@@ -181,19 +181,53 @@ h1 {
   /* z-index: 1; */
   position: relative;
   align-content: center;
+
   /* padding: 50 30 50 70; */
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
-  padding-left: 80px;
+  padding-left: 40px;
+  /* padding: 1% 1% 1% 1%; */
+  /* padding: 6.63vh 1.95vw 6.63vh 3.9vw; */
+  /* display: grid; */
+  /* display: flex; */
 }
 
 .skills .container-fluid .row {
   align-content: center;
 }
 
+.skills .container-fluid .col {
+  border-radius: 5px;
+  background: #cdd1c7;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.skills .ulTxt {
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.skills .liTxt {
+  display: inline;
+  padding: 0px 1px;
+}
+
 .skills h3 {
   text-align: center;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.pro h3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
 }
 
 /*
@@ -297,16 +331,4 @@ INTRO
 .links {
   border-collapse: separate;
   border-spacing: 5em 0;
-}
-
-.platform {
-  color: #c2c2c2;
-}
-
-.col {
-  display: inline;
-}
-
-.col .icon {
-  display: inline-block;
 }

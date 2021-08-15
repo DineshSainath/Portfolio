@@ -1,6 +1,8 @@
 import React from "react";
 import Typed from "react-typed";
 import "../../public/styles.css";
+import IconButton from "@material-ui/core/IconButton";
+import ToolTip from "@material-ui/core/Tooltip";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import PdfIcon from "@material-ui/icons/PictureAsPdf";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -28,38 +30,53 @@ function Intro() {
               <tbody>
                 <tr>
                   <td>
-                    <a href="google.com">
-                      <PdfIcon
-                        className="icon"
-                        color="primary"
-                        style={{ fontSize: "40px" }}
-                      />
+                    <a className="iconLink" href="google.com">
+                      <ToolTip title="Resume">
+                        <IconButton>
+                          <PdfIcon
+                            className="icon"
+                            color="primary"
+                            style={{ fontSize: "50px" }}
+                          />
+                        </IconButton>
+                      </ToolTip>
                     </a>
                   </td>
                   <td>
-                    <a href="github.com/DineshSainath">
-                      <GitHubIcon
-                        className="icon"
-                        color="primary"
-                        style={{ fontSize: "40px" }}
-                      />
+                    <a className="iconLink" href="github.com/DineshSainath">
+                      <ToolTip title="Github">
+                        <IconButton>
+                          <GitHubIcon
+                            className="icon"
+                            color="primary"
+                            style={{ fontSize: "50px" }}
+                          />{" "}
+                        </IconButton>
+                      </ToolTip>
                     </a>
                   </td>
                   <td>
-                    <a href="linkedin.com/in/dineshsainath/">
-                      <LinkedInIcon
-                        className="icon"
-                        color="primary"
-                        style={{ fontSize: "40px" }}
-                      />
+                    <a
+                      className="iconLink"
+                      href="linkedin.com/in/dineshsainath/"
+                    >
+                      <ToolTip title="LinkedIn">
+                        <IconButton>
+                          <LinkedInIcon
+                            className="icon"
+                            color="primary"
+                            style={{ fontSize: "50px" }}
+                          />{" "}
+                        </IconButton>
+                      </ToolTip>
                     </a>
                   </td>
                 </tr>
-                <tr>
+                {/* <tr>
                   <td className="platform">Resume</td>
                   <td className="platform">Github</td>
                   <td className="platform">LinkedIn</td>
-                </tr>
+                </tr> */}
               </tbody>
             </table>
           </div>

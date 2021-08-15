@@ -10,6 +10,9 @@ export default function App() {
       <Navbar />
       <Intro />
       <Skills />
+      <div className="pro">
+        <h3> P R O J E C T S </h3>
+      </div>
       <Vertical />
     </div>
   );

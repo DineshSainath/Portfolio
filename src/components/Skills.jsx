@@ -1,18 +1,61 @@
 import React from "react";
+import {
+  DiHtml5,
+  DiNodejsSmall,
+  DiCss3,
+  DiMysql,
+  DiMongodb,
+  DiReact,
+  DiJava
+} from "react-icons/di";
+
+import { SiC, SiCplusplus } from "react-icons/si";
 
 function Skills() {
   return (
     <section className="skills">
-      <h3>Skills</h3>
+      <h3>S K I L L S</h3>
       <div className="container-fluid">
-        <div className="row">
-          <div className="col">Html </div>
-          <div className="col">CSS </div>
-          <div className="col">Javascript </div>
-          <div className="col">Bootstrap</div>
-          <div className="col">Mongodb</div>
-          <div className="col">React</div>
-        </div>
+        <ul className="list-inline d-flex justify-content-center">
+          <li className="list-inline-item mx-5 icon">
+            <DiHtml5 size={60} /> <p className="text-center">Html</p>
+          </li>
+          <li className="list-inline-item mx-5 icon">
+            <DiCss3 size={60} /> <p className="text-center">CSS</p>
+          </li>
+          <li className="list-inline-item mx-5 icon">
+            <DiNodejsSmall size={60} /> <p className="text-center">NodeJs</p>
+          </li>
+          <li className="list-inline-item mx-5 icon">
+            <SiC size={60} /> <p className="text-center">C prg</p>
+          </li>
+          <li className="list-inline-item mx-5 icon">
+            <SiCplusplus size={60} /> <p className="text-center">C++</p>
+          </li>
+          <li className="list-inline-item mx-5 icon">
+            <DiReact size={60} /> <p className="text-center">React</p>
+          </li>
+          <li className="list-inline-item mx-5 icon">
+            <DiJava size={60} /> <p className="text-center">Java</p>
+          </li>
+          <li className="list-inline-item mx-5 icon">
+            <DiMysql size={60} /> <p className="text-center">MySql</p>
+          </li>
+          <li className="list-inline-item mx-5 icon">
+            <DiMongodb size={60} /> <p className="text-center">MongoDB</p>
+          </li>
+        </ul>
+        {/* <ul cellSpacing="70" className="ulTxt">
+          <li className="list-inline-item mx-5 liTxt">Html</li>
+          <li className="list-inline-item mx-5 liTxt">CSS</li>
+          <li className="list-inline-item mx-5 liTxt">NodeJs</li>
+          <li className="list-inline-item mx-5 liTxt">C</li>
+          <li className="list-inline-item mx-5 liTxt">C++</li>
+          <li className="list-inline-item mx-5 liTxt">React</li>
+          <li className="list-inline-item mx-5 liTxt">Java</li>
+          <li className="list-inline-item mx-5 liTxt">MySql</li>
+          <li className="list-inline-item mx-5 liTxt">MongoDb</li>
+        </ul> */}
       </div>
     </section>
   );
