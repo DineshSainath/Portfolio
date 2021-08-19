@@ -321,6 +321,10 @@ INTRO
   color: #fff;
 }
 
+.intro-content .icon:hover {
+  color: white;
+}
+
 /* icons */
 
 .tb {

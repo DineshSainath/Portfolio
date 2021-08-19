@@ -7,6 +7,11 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import PdfIcon from "@material-ui/icons/PictureAsPdf";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
+import {
+  AiOutlineGithub,
+  AiOutlineFilePdf
+} from "react-icons/ai";
+
 function Intro() {
   return (
     <div className="intro-content display-table">
@@ -32,6 +37,7 @@ function Intro() {
                   <td>
                     <a className="iconLink" href="google.com">
                       <ToolTip title="Resume">
+                      {/* <AiOutlineFilePdf className="icon" color="gray" size="50px" /> */}
                         <IconButton>
                           <PdfIcon
                             className="icon"
