@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import "../../public/styles.css";
+import "./styles.css";
 import IconButton from "@material-ui/core/IconButton";
 import ToolTip from "@material-ui/core/Tooltip";
 import GitHubIcon from "@material-ui/icons/GitHub";

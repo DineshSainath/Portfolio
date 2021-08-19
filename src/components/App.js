@@ -1,4 +1,4 @@
-import "../../public/styles.css";
+import "./styles.css";
 import Navbar from "./navbar";
 import Intro from "./Intro0";
 import Vertical from "./vertical";
