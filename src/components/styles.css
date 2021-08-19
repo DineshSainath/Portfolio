@@ -151,7 +151,7 @@ h1 {
 }
 
 .container-fluid {
-  padding: 2% 10%;
+  /* padding: 2% 10%; */
   height: 100%;
   width: 100%;
   /* transition-duration: 5s; */
@@ -186,7 +186,7 @@ h1 {
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
-  padding-left: 40px;
+  padding-left: 40px; 
   /* padding: 1% 1% 1% 1%; */
   /* padding: 6.63vh 1.95vw 6.63vh 3.9vw; */
   /* display: grid; */

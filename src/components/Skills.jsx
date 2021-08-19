@@ -16,7 +16,7 @@ function Skills() {
     <section className="skills">
       <h3>S K I L L S</h3>
       <div className="container-fluid">
-        <ul className="list-inline d-flex justify-content-center">
+        <ul className="list-inline ">
           <li className="list-inline-item mx-5 icon">
             <DiHtml5 size={60} /> <p className="text-center">Html</p>
           </li>
@@ -27,7 +27,7 @@ function Skills() {
             <DiNodejsSmall size={60} /> <p className="text-center">NodeJs</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <SiC size={60} /> <p className="text-center">C prg</p>
+            <SiC size={50} /> <p className="text-center">C prg</p>
           </li>
           <li className="list-inline-item mx-5 icon">
             <SiCplusplus size={60} /> <p className="text-center">C++</p>
