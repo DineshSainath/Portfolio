@@ -1,5 +1,6 @@
 import React from "react";
 import { SiGmail, SiLinkedin, SiGithub, SiReact } from "react-icons/si";
+import { Document, Page, pdfjs } from "react-pdf";
 
 function Footer() {
 
@@ -12,11 +13,11 @@ return (
           <li className="list-inline-item mx-5 icon">
             <SiGmail size={30} />
           </li> </a>
-          <a className="cIcon" href="linkedin.com/in/dineshsainath/" target="_blank">
+          <a className="cIcon" href="https://linkedin.com/in/dineshsainath/" target="_blank">
           <li className="list-inline-item mx-5 icon">
             <SiLinkedin size={30} />
           </li></a>
-          <a className="cIcon" href="github.com/dineshsainath/" target="_blank">
+          <a className="cIcon" href="https://github.com/dineshsainath/" target="_blank">
           <li className="list-inline-item mx-5 icon">
             <SiGithub size={30} />
           </li></a>

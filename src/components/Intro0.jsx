@@ -6,6 +6,7 @@ import ToolTip from "@material-ui/core/Tooltip";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import PdfIcon from "@material-ui/icons/PictureAsPdf";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import Resume from "./Resume.pdf";
 
 import {
   AiOutlineGithub,
@@ -35,7 +36,7 @@ function Intro() {
               <tbody>
                 <tr>
                   <td>
-                    <a className="iconLink" href="./Resume.pdf" target="_blank">
+                    <a className="iconLink" href={Resume} target="_blank">
                       <ToolTip title="Resume">
                       {/* <AiOutlineFilePdf className="icon" color="gray" size="50px" /> */}
                         <IconButton>
@@ -49,7 +50,7 @@ function Intro() {
                     </a>
                   </td>
                   <td>
-                    <a className="iconLink" href="www.github.com/DineshSainath" target="_blank">
+                    <a className="iconLink" href="https://github.com/DineshSainath" target="_blank">
                       <ToolTip title="Github">
                         <IconButton>
                           <GitHubIcon
@@ -64,7 +65,7 @@ function Intro() {
                   <td id="skillsScroll">
                     <a
                       className="iconLink"
-                      href="linkedin.com/in/dineshsainath/" target="_blank"
+                      href="https://linkedin.com/in/dineshsainath/" target="_blank"
                     >
                       <ToolTip title="LinkedIn">
                         <IconButton>
