@@ -343,6 +343,20 @@ INTRO
   border-spacing: 5em 0;
 }
 
+/* projects - vertical */
+.v .proj{
+  text-align: right;
+  float:right;
+  overflow:auto;
+  text-decoration: none !important;
+  color:#868683;
+}
+
+.v .proj:hover {
+  color: inherit;
+}
+
+
 
 /*work*/
 .work{
@@ -383,7 +397,6 @@ overflow:auto;
 /* display:inline; */
 }
 
-
 .work .card-deck .date{
   text-align: right;
   float:right;
@@ -394,34 +407,7 @@ overflow:auto;
   }
   
 
-/* Education */
-
-.edu .container-fluid{
-  background: #fffffa;
-}
-
-.edu .card-deck{
-  padding-bottom: 5rem;
-  display: inline-flex;
-  margin: 0 auto;
-  }
-  
-  
-  .edu h3{
-    padding-top: 90px;
-    padding-bottom: 80px;
-    text-align: center;
-    font-weight: bold;
-    color: #fffffa;
-  }
-  
-  .edu .card{
-    margin: 1rem;
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: #ECEBEA;
-  }
-
-  /*Footer*/
+   /*Footer*/
   .Footer {
     background-color: #0b0c10;
     margin: 0 auto;
@@ -455,9 +441,34 @@ overflow:auto;
 
   .Footer .footer .p{
     padding-top: 20%;
-
-    /* text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    position: fixed; */
   }
+
+
+
+  /* Education 
+
+.edu .container-fluid{
+  background: #fffffa;
+}
+
+.edu .card-deck{
+  padding-bottom: 5rem;
+  display: inline-flex;
+  margin: 0 auto;
+  }
+  
+  
+  .edu h3{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: #fffffa;
+  }
+  
+  .edu .card{
+    margin: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #ECEBEA;
+  }
+ */

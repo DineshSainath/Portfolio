@@ -7,11 +7,12 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import {SiGithub} from "react-icons/si";
 
 function Vertical() {
   return (
-    <div position="absolute" white-space="normal" display="block">
-      <VerticalTimeline>
+    <div className="v" position="absolute" white-space="normal" display="block">
+      <VerticalTimeline> 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(43, 42, 42)", color: "#fff" }}
@@ -19,7 +20,8 @@ function Vertical() {
           date="August 2021"
           iconStyle={{ background: "rgb(232, 227, 227)", color: "black" }}
           icon={<ComputerIcon />}
-        >
+        > 
+          <a className="proj" href="https://github.com/DineshSainath/React/tree/master/19.%20keeper-app-part-2" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">Keeper</h3>
           <h5 className="vertical-timeline-element-subtitle">
             Web Application
@@ -35,6 +37,7 @@ function Vertical() {
           iconStyle={{ background: "rgb(232, 227, 227)", color: "black" }}
           icon={<ComputerIcon />}
         >
+        <a className="proj" href="https://github.com/DineshSainath/ToDoList" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">To Do List</h3>
           <h5 className="vertical-timeline-element-subtitle">
             Web Application
@@ -53,6 +56,7 @@ function Vertical() {
           iconStyle={{ background: "rgb(232, 227, 227)", color: "black" }}
           icon={<ComputerIcon />}
         >
+        <a className="proj" href="https://github.com/DineshSainath/BlogSite" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">Personal Blog</h3>
           <h5 className="vertical-timeline-element-subtitle">
             Web Application
@@ -71,6 +75,7 @@ function Vertical() {
           iconStyle={{ background: "rgb(232, 227, 227)", color: "black" }}
           icon={<ComputerIcon />}
         >
+        <a className="proj" href="https://github.com/DineshSainath/DrumKit" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">Drum kit</h3>
           <h5 className="vertical-timeline-element-subtitle">
             Javascript application
@@ -86,6 +91,7 @@ function Vertical() {
           iconStyle={{ background: "rgb(232, 227, 227)", color: "black" }}
           icon={<SchoolIcon />}
         >
+        <a className="proj" href="https://github.com/DineshSainath/Java-Estore" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">E store</h3>
           <h5 className="vertical-timeline-element-subtitle">
             Data application
@@ -104,6 +110,7 @@ function Vertical() {
           iconStyle={{ background: "rgb(232, 227, 227)", color: "black" }}
           icon={<SchoolIcon />}
         >
+        <a className="proj" href="https://github.com/DineshSainath/Adventure-game" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">Adventure Game</h3>
           <h5 className="vertical-timeline-element-subtitle">
             Java Application

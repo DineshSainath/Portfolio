@@ -49,7 +49,7 @@ function Intro() {
                     </a>
                   </td>
                   <td>
-                    <a className="iconLink" href="github.com/DineshSainath">
+                    <a className="iconLink" href="www.github.com/DineshSainath" target="_blank">
                       <ToolTip title="Github">
                         <IconButton>
                           <GitHubIcon
@@ -64,7 +64,7 @@ function Intro() {
                   <td id="skillsScroll">
                     <a
                       className="iconLink"
-                      href="linkedin.com/in/dineshsainath/"
+                      href="linkedin.com/in/dineshsainath/" target="_blank"
                     >
                       <ToolTip title="LinkedIn">
                         <IconButton>
