@@ -1,4 +1,7 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function Work() {
 
@@ -8,7 +11,7 @@ function Work() {
         <div className="container-fluid">
         
             <div className="card-deck">
-            <div className="card col-5 shadow p-3 mb-5 bg-body rounded">
+            <div className="card col-5 shadow p-3 mb-5 bg-body rounded" data-aos="fade-right">
                 <h2 className="card-title">Vankay Systems</h2>
                 <div display="flex"><h5 className="card-subtitle">Junior Web Developer</h5>
                 <h7 className="date">May - June 2020</h7></div>
@@ -21,7 +24,7 @@ function Work() {
                     <li>Integrated Wordpress to enable easy management</li>
                 </p>
                 </div>
-                <div className="card col-5 shadow p-3 mb-5 bg-body rounded">
+                <div className="card col-5 shadow p-3 mb-5 bg-body rounded" data-aos="fade-left">
                     <h2 className="card-title">Jgames</h2>
                     <div display="flex">
                     <h5 className="card-subtitle">Junior Software Developer</h5>
