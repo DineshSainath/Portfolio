@@ -111,7 +111,7 @@ function Vertical() {
           <p>A text-based Java game that uses Object Oriented Approach</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
+        <VerticalTimelineElement id="workScroll"
           iconStyle={{ background: "black", color: "white" }}
           icon={<StarIcon />}
         />

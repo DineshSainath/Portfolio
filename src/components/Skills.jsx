@@ -45,17 +45,6 @@ function Skills() {
             <DiMongodb size={60} /> <p className="text-center">MongoDB</p>
           </li>
         </ul>
-        {/* <ul cellSpacing="70" className="ulTxt">
-          <li className="list-inline-item mx-5 liTxt">Html</li>
-          <li className="list-inline-item mx-5 liTxt">CSS</li>
-          <li className="list-inline-item mx-5 liTxt">NodeJs</li>
-          <li className="list-inline-item mx-5 liTxt">C</li>
-          <li className="list-inline-item mx-5 liTxt">C++</li>
-          <li className="list-inline-item mx-5 liTxt">React</li>
-          <li className="list-inline-item mx-5 liTxt">Java</li>
-          <li className="list-inline-item mx-5 liTxt">MySql</li>
-          <li className="list-inline-item mx-5 liTxt">MongoDb</li>
-        </ul> */}
       </div>
     </section>
   );

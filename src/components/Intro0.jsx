@@ -35,7 +35,7 @@ function Intro() {
               <tbody>
                 <tr>
                   <td>
-                    <a className="iconLink" href="google.com">
+                    <a className="iconLink" href="./Resume.pdf" target="_blank">
                       <ToolTip title="Resume">
                       {/* <AiOutlineFilePdf className="icon" color="gray" size="50px" /> */}
                         <IconButton>
@@ -61,7 +61,7 @@ function Intro() {
                       </ToolTip>
                     </a>
                   </td>
-                  <td>
+                  <td id="skillsScroll">
                     <a
                       className="iconLink"
                       href="linkedin.com/in/dineshsainath/"
