@@ -27,7 +27,7 @@ function Skills() {
             <DiNodejsSmall size={60} /> <p className="text-center">NodeJs</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <SiC size={50} /> <p className="text-center">C prg</p>
+            <SiC size={50} /> <p className="text-center">C</p>
           </li>
           <li className="list-inline-item mx-5 icon">
             <SiCplusplus size={60} /> <p className="text-center">C++</p>

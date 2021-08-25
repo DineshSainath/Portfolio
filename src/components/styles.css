@@ -349,11 +349,14 @@ INTRO
   float:right;
   overflow:auto;
   text-decoration: none !important;
-  color:#868683;
+  /* color:#0F636B; */
+  /* color: #2c397f; */
+  color: black;
 }
 
 .v .proj:hover {
-  color: inherit;
+  /* color: #3f51b5; */
+  color: #8A8A88;
 }
 
 
@@ -423,7 +426,7 @@ overflow:auto;
     padding-bottom: 2rem;
   }
 
-  .Footer h4{
+  .Footer h5{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -431,12 +434,12 @@ overflow:auto;
   }
 
   .Footer .icon:hover {
-    color: #999992;
+    color:  #D3D3D3;
   }
 
   .Footer .cIcon{
     text-decoration: none !important;
-    color: inherit;
+    color: #3D3D3A;
   }
 
   .Footer .footer .p{

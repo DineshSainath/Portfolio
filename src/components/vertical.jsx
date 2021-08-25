@@ -7,7 +7,18 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {SiGithub} from "react-icons/si";
+import {SiGithub, SiJavascript} from "react-icons/si";
+import {
+  DiHtml5,
+  DiNodejsSmall,
+  DiCss3,
+  DiMysql,
+  DiMongodb,
+  DiReact,
+  DiJavascript1,
+  DiJava
+} from "react-icons/di";
+
 
 function Vertical() {
   return (
@@ -24,7 +35,7 @@ function Vertical() {
           <a className="proj" href="https://github.com/DineshSainath/React/tree/master/19.%20keeper-app-part-2" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">Keeper</h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Web Application
+            Web Application &ensp; <DiReact size={25} /> <DiNodejsSmall size={25} /> <DiHtml5 size={25} /> <DiCss3 size={25} />
           </h5>
           <p>A React based note-keeper app similar to Google keep</p>
         </VerticalTimelineElement>
@@ -40,7 +51,7 @@ function Vertical() {
         <a className="proj" href="https://github.com/DineshSainath/ToDoList" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">To Do List</h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Web Application
+            Web Application &ensp; <DiNodejsSmall size={25} /> <DiMongodb size={25} /> <DiHtml5 size={25} /> <DiCss3 size={25} />
           </h5>
           <p>
             A to-do-list application constructed with Node Js with a back-end
@@ -59,7 +70,7 @@ function Vertical() {
         <a className="proj" href="https://github.com/DineshSainath/BlogSite" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">Personal Blog</h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Web Application
+            Web Application &ensp; <DiNodejsSmall size={25} /> <DiMongodb size={25} /> <DiHtml5 size={25} /> <DiCss3 size={25} />
           </h5>
           <p>
             A minimalistic blog website built using Node Js to compose and
@@ -78,7 +89,7 @@ function Vertical() {
         <a className="proj" href="https://github.com/DineshSainath/DrumKit" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">Drum kit</h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Javascript application
+            Javascript application &ensp; <SiJavascript size={25} /> <DiHtml5 size={25} /> <DiCss3 size={25} />
           </h5>
           <p>Uses keys to play sounds and create music</p>
         </VerticalTimelineElement>
@@ -94,7 +105,7 @@ function Vertical() {
         <a className="proj" href="https://github.com/DineshSainath/Java-Estore" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">E store</h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Data application
+            Data application &ensp; <DiJava size={30} />  
           </h5>
           <p>
             A Java based e-store application, integrated using Hashmaps, GUI and
@@ -113,7 +124,7 @@ function Vertical() {
         <a className="proj" href="https://github.com/DineshSainath/Adventure-game" target="_blank"><SiGithub size={30}/></a>
           <h3 className="vertical-timeline-element-title">Adventure Game</h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Java Application
+            Java Application &ensp; <DiJava size={30} /> 
           </h5>
           <p>A text-based Java game that uses Object Oriented Approach</p>
         </VerticalTimelineElement>
