@@ -172,7 +172,7 @@ h1 {
   margin-right: 30px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 950px) {
   .sidebar {
     padding-top: 15px;
   }
