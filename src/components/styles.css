@@ -8,6 +8,7 @@ body {
   /* color: #181818; */
   /* background-image: url("C:/Users/madhu/OneDrive/Documents/Udemy/Web%20development/Portfolio/new/images/ds2.jpg"); */
   background-size: 100% 200%;
+  /* overflow-x: hidden; */
 }
 
 /*color palette
@@ -199,11 +200,11 @@ h1 {
   /* display: grid; */
   /* display: flex; */
 }
-/* 
-.skills .container-fluid .row {
-  align-content: center;
-}
 
+.skills .container-fluid {
+  align-content: stretch;
+}
+/* 
 .skills .container-fluid .col {
   border-radius: 5px;
   background: #cdd1c7;
@@ -211,16 +212,17 @@ h1 {
   display: block;
   margin: 0 auto;
 } */
-
+/* 
 .skills ul{
   display: flex;
   align-items: stretch; /* Default */
-  justify-content: space-between;
+  /* justify-content: space-between;
   width: 100%;
+  position: relative; */
   /* background: #cacaca; */
-  margin: 0;
-  padding: 0;
-}
+  /* margin: 0;
+  padding: 0; */
+/* }  */
 
 .skills h3 {
   text-align: center;
