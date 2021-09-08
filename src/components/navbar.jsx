@@ -3,9 +3,9 @@ import "./styles.css";
 
 function Navbar() {
   return (
-    <div className="container-fluid" id="nav">
+    <div className="container-fluid">
       <nav className="navbar navbar-expand-lg navbar-dark ">
-        <a className="navbar-brand" href="#nav">
+        <a className="navbar-brand" href="#nav" id="nav">
           DS
         </a>
         <button

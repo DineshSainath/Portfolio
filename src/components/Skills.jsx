@@ -18,31 +18,31 @@ function Skills() {
       <div className="container-fluid">
         <ul className="list-inline ">
           <li className="list-inline-item mx-5 icon">
-            <DiHtml5 size={60} /> <p className="text-center">Html</p>
+            <DiHtml5 size={30} /> <p className="text-center">Html</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <DiCss3 size={60} /> <p className="text-center">CSS</p>
+            <DiCss3 size={30} /> <p className="text-center">CSS</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <DiNodejsSmall size={60} /> <p className="text-center">NodeJs</p>
+            <DiNodejsSmall size={30} /> <p className="text-center">NodeJs</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <SiC size={50} /> <p className="text-center">C</p>
+            <SiC size={30} /> <p className="text-center">C</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <SiCplusplus size={60} /> <p className="text-center">C++</p>
+            <SiCplusplus size={30} /> <p className="text-center">C++</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <DiReact size={60} /> <p className="text-center">React</p>
+            <DiReact size={30} /> <p className="text-center">React</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <DiJava size={60} /> <p className="text-center">Java</p>
+            <DiJava size={30} /> <p className="text-center">Java</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <DiMysql size={60} /> <p className="text-center">MySql</p>
+            <DiMysql size={30} /> <p className="text-center">MySql</p>
           </li>
           <li className="list-inline-item mx-5 icon">
-            <DiMongodb size={60} /> <p className="text-center">MongoDB</p>
+            <DiMongodb size={30} /> <p className="text-center">MongoDB</p>
           </li>
         </ul>
       </div>

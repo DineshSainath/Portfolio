@@ -187,18 +187,19 @@ h1 {
   /* z-index: 1; */
   position: relative;
   align-content: center;
+  float: none; margin: 0 auto;
 
   /* padding: 50 30 50 70; */
   padding-top: 50px;
-  padding-right: 30px;
+  /* padding-right: 30px; */
   padding-bottom: 50px;
-  padding-left: 40px; 
+  /* padding-left: 40px;  */
   /* padding: 1% 1% 1% 1%; */
   /* padding: 6.63vh 1.95vw 6.63vh 3.9vw; */
   /* display: grid; */
   /* display: flex; */
 }
-
+/* 
 .skills .container-fluid .row {
   align-content: center;
 }
@@ -209,17 +210,16 @@ h1 {
   text-align: center;
   display: block;
   margin: 0 auto;
-}
+} */
 
-.skills .ulTxt {
-  white-space: nowrap;
-  margin: 0 auto;
+.skills ul{
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  /* background: #cacaca; */
+  margin: 0;
   padding: 0;
-}
-
-.skills .liTxt {
-  display: inline;
-  padding: 0px 1px;
 }
 
 .skills h3 {
