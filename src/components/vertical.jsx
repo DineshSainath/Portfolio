@@ -7,7 +7,7 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {SiGithub, SiJavascript} from "react-icons/si";
+import {SiGithub, SiJavascript, SiCodesandbox} from "react-icons/si";
 import {
   DiHtml5,
   DiNodejsSmall,
@@ -33,6 +33,7 @@ function Vertical() {
           icon={<ComputerIcon />}
         > 
           <a className="proj" href="https://github.com/DineshSainath/React/tree/master/19.%20keeper-app-part-2" target="_blank"><SiGithub size={30}/></a>
+          <a className="proj" href="https://codesandbox.io/s/using-pre-built-react-components-forked-pjv54" target="_blank"><SiCodesandbox size={30}/></a>
           <h3 className="vertical-timeline-element-title">Keeper</h3>
           <h5 className="vertical-timeline-element-subtitle">
             Web Application &ensp; <DiReact size={25} /> <DiNodejsSmall size={25} /> <DiHtml5 size={25} /> <DiCss3 size={25} />

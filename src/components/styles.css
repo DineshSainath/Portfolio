@@ -354,6 +354,7 @@ INTRO
   /* color:#0F636B; */
   /* color: #2c397f; */
   color: black;
+  padding-left: 20px;
 }
 
 .v .proj:hover {

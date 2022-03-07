@@ -14,7 +14,7 @@ function Work() {
             <div className="card col-5 shadow p-3 mb-5 bg-body rounded" data-aos="fade-right">
                 <h2 className="card-title">Vankay Systems</h2>
                 <div display="flex"><h5 className="card-subtitle">Junior Web Developer</h5>
-                <h7 className="date">May - June 2020</h7></div>
+                <h7 className="date">Jan - April 2020</h7></div>
                 <p className="card-text">
                     <li>
                         Analyzed the business model & proposed the UI mockup
@@ -25,14 +25,14 @@ function Work() {
                 </p>
                 </div>
                 <div className="card col-5 shadow p-3 mb-5 bg-body rounded" data-aos="fade-left">
-                    <h2 className="card-title">Jgames</h2>
+                    <h2 className="card-title">iCommunity</h2>
                     <div display="flex">
-                    <h5 className="card-subtitle">Junior Software Developer</h5>
-                    <h7 className="date">Sep - Dec 2019</h7></div>
+                    <h5 className="card-subtitle">IT Intern</h5>
+                    <h7 className="date">July - Dec 2020</h7></div>
                     <p className="card-text">
-                        <li>Developed an interactive memory game using OOPS</li>
+                        <li> Developed the front-end platform for students to engage and network within a community</li>
                         <li>Enhanced the performance using efficient algorithms</li>
-                        <li>Implemented error-handling and Regression testing</li>
+                        <li>Maintain website content, posts and pages</li>
                         
                     </p>
                 </div>
