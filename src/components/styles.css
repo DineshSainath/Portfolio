@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -149,8 +150,6 @@ h1 {
   /* font-weight: bold; */
 }
 
-.colored-section {
-}
 
 #title .container-fluid {
   padding: 3% 15% 13.5%;
@@ -159,8 +158,8 @@ h1 {
 
 .container-fluid {
   /* padding: 2% 10%; */
-  height: 100%;
-  width: 100%;
+  height: 97%;
+  width: 97%;
   /* transition-duration: 5s; */
 }
 
@@ -201,28 +200,9 @@ h1 {
   /* display: flex; */
 }
 
-/* .skills .container-fluid {
-  align-content: stretch;
-} */
-/* 
-.skills .container-fluid .col {
-  border-radius: 5px;
-  background: #cdd1c7;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-} */
-/* 
-.skills ul{
-  display: flex;
-  align-items: stretch; /* Default */
-  /* justify-content: space-between;
-  width: 100%;
-  position: relative; */
-  /* background: #cacaca; */
-  /* margin: 0;
-  padding: 0; */
-/* }  */
+.list-inline-item{
+  padding: 0 0.3em 0 .3em;
+}
 
 .skills h3 {
   text-align: center;
@@ -252,8 +232,16 @@ INTRO
   text-align: center;
   position: relative;
   /* white-space: normal; */
-  display: block;
+  display: flex;
   padding-block-end: 10em;
+  height: 97%;
+  width: 97%;
+  width:100%;
+  /* max-width: 1900px; */
+}
+
+.container{
+  margin:0 auto;
 }
 
 .display-table {
@@ -265,7 +253,7 @@ INTRO
 .table-cell {
   display: table-cell;
   vertical-align: sub;
-  padding-top: 100px;
+  padding-top: 8%;
 }
 
 .intro .overlay-intro {
@@ -282,11 +270,13 @@ INTRO
 .intro-title {
   color: #fff;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 3em;
+  width: 0 auto;
+  padding-top: 6%;
 }
 
 .container .center {
-  padding-top: 100px;
+  padding-top: 16%;
 }
 
 .intro-subtitle {
@@ -299,7 +289,7 @@ INTRO
   color: #fff;
 }
 
-.intro-single {
+/* .intro-single {
   height: 350px;
 }
 
@@ -310,7 +300,7 @@ INTRO
 .intro-single .intro-title {
   text-transform: uppercase;
   font-size: 3rem;
-}
+} */
 
 .intro-single .breadcrumb {
   background-color: transparent;
@@ -332,6 +322,7 @@ INTRO
 .intro-content .icon:hover {
   color: white;
 }
+
 
 /* icons */
 
@@ -367,6 +358,8 @@ INTRO
 /*work*/
 .work{
   background-color: #fffffa;
+  /* margin: 0 auto; */
+
 }
 
 .work .container-fluid {
@@ -478,3 +471,14 @@ overflow:auto;
     background-color: #ECEBEA;
   }
  */
+
+ @media only screen and (min-device-width: 320px) 
+ and (max-device-width: 480px) {
+  .intro-content{
+    /* background-color: blue; */
+    font-size: 45%;
+    height: 120vw;
+    width: 90vw;
+    margin-left: -35px;
+  }
+ }

@@ -16,7 +16,7 @@ import {
 function Intro() {
   return (
     <div className="intro-content display-table">
-      <div className="table-cell">
+      {/* <div className="table-cell"> */}
         <div className="container">
           <h1 className="intro-title mb-4">Hello, I'm Dinesh Sainath</h1>
           <p className="intro-subtitle">
@@ -88,7 +88,7 @@ function Intro() {
             </table>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 }
