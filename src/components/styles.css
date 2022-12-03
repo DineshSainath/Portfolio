@@ -363,7 +363,7 @@ INTRO
 }
 
 .work .container-fluid {
-display: inline-block;
+/* display: inline-block; */
 }
 
 .work .card-deck{
@@ -381,28 +381,20 @@ margin: 0 auto;
 }
 
 .work .card{
-  margin: 1rem;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   background-color: #f0e9e9;
   margin: 0 auto;
-  /* color: white; */
 }
 
 .work .container-fluid .card-subtitle{
 text-align: left;
 float:left;
 overflow:auto;
-/* color: blue ; */
-/* display:inline; */
 }
 
 .work .card-deck .date{
   text-align: right;
   float:right;
 overflow:auto;
-  
-/* display:inline; */
-
   }
   
 
@@ -416,7 +408,6 @@ overflow:auto;
 
   .Footer .container-fluid {
     align-content: center;
-    /* display: inline-block; */
     margin: 0 auto;
     width:100%;
     padding-bottom: 2rem;
@@ -442,36 +433,6 @@ overflow:auto;
     padding-top: 20%;
   }
 
-
-
-  /* Education 
-
-.edu .container-fluid{
-  background: #fffffa;
-}
-
-.edu .card-deck{
-  padding-bottom: 5rem;
-  display: inline-flex;
-  margin: 0 auto;
-  }
-  
-  
-  .edu h3{
-    padding-top: 90px;
-    padding-bottom: 80px;
-    text-align: center;
-    font-weight: bold;
-    color: #fffffa;
-  }
-  
-  .edu .card{
-    margin: 1rem;
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: #ECEBEA;
-  }
- */
-
  @media only screen and (min-device-width: 320px) 
  and (max-device-width: 480px) {
   .intro-content{
@@ -481,4 +442,26 @@ overflow:auto;
     width: 90vw;
     margin-left: -35px;
   }
+
+  .card-deck{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    /* margin-left: 25px; */
+  }
+
+  #cards{
+    width: 100%;
+    /* background-color: blue; */
+  }
+ 
+  .card-title{
+    font-size: 6vw;
+  }
+
+  .work h3{
+    letter-spacing: 0.2em;
+    font-size: 1.8em;
+  }
+
  }

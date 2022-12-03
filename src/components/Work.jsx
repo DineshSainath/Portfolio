@@ -7,11 +7,12 @@ function Work() {
 
     return (
     <section className="work">
-    <h3>W O R K &ensp; E X P E R I E N C E</h3>
+    <h3>WORK EXPERIENCE</h3>
         <div className="container-fluid">
         
             <div className="card-deck">
-            <div className="card col-5 shadow p-3 mb-5 bg-body rounded" data-aos="fade-right">
+            <div className="card col-md-5 shadow p-3 mb-5 bg-body rounded custom-col" >
+            {/* data-aos="fade-left" */}
                 <h2 className="card-title">Vankay Systems</h2>
                 <div display="flex"><h5 className="card-subtitle">Junior Web Developer</h5>
                 <h7 className="date">Jan - April 2020</h7></div>
@@ -24,7 +25,7 @@ function Work() {
                     <li>Integrated Wordpress to enable easy management</li>
                 </p>
                 </div>
-                <div className="card col-5 shadow p-3 mb-5 bg-body rounded" data-aos="fade-left">
+                <div className="card col-md-5 shadow p-3 mb-5 bg-body rounded">
                     <h2 className="card-title">iCommunity</h2>
                     <div display="flex">
                     <h5 className="card-subtitle">IT Intern</h5>
