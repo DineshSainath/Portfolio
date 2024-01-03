@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Typed from 'react-typed'
 import './styles.css'
 import IconButton from '@material-ui/core/IconButton'
@@ -8,8 +8,6 @@ import PdfIcon from '@material-ui/icons/PictureAsPdf'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import Resume from './Resume.pdf'
 import './Intro.css'
-
-import { AiOutlineGithub, AiOutlineFilePdf } from 'react-icons/ai'
 
 function Intro() {
   return (

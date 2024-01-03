@@ -18,6 +18,10 @@
   padding-top: 1rem;
 }
 
+.navbar-brand.loaded {
+  opacity: 1;
+}
+
 .container-fluid {
   height: 97%;
   width: 97%;
