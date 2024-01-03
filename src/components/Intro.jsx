@@ -1,21 +1,21 @@
-import React from "react";
-import Typed from "react-typed";
-import "../../public/styles.css";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import PdfIcon from "@material-ui/icons/PictureAsPdf";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import React from 'react'
+import Typed from 'react-typed'
+import '../../public/styles.css'
+import GitHubIcon from '@material-ui/icons/GitHub'
+import PdfIcon from '@material-ui/icons/PictureAsPdf'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
 
 function Intro() {
   return (
     <div className="intro-content display-table">
       <div className="table-cell">
         <div className="container">
-          <h1 className="intro-title mb-4">Hello, I'm Dinesh Sainath</h1>
+          <h1 className="intro-title">sdldfgdfjsdlkfjsd </h1>
           <p className="intro-subtitle">
             <span className="text-slider-items"></span>
             <strong className="text-slider">
               <Typed
-                strings={["Full Stack Developer", "Software Engineer"]}
+                strings={['Full Stack Developer', 'Software Engineer']}
                 typeSpeed={80}
                 backDelay={1100}
                 backSpeed={30}
@@ -23,13 +23,6 @@ function Intro() {
               />
             </strong>
           </p>
-          {/* <a
-              className="btn btn-primary btn js-scroll px-4"
-              href="#work"
-              role="button"
-            >
-              View My Work
-            </a> */}
           <div className="center">
             <span className="col">
               {
@@ -37,7 +30,7 @@ function Intro() {
                   <PdfIcon
                     className="icon"
                     color="primary"
-                    style={{ fontSize: "40px" }}
+                    style={{ fontSize: '40px' }}
                   />
                 </a>
               }
@@ -48,7 +41,7 @@ function Intro() {
                 <GitHubIcon
                   className="icon"
                   color="primary"
-                  style={{ fontSize: "40px" }}
+                  style={{ fontSize: '40px' }}
                 />
               }
               Github
@@ -58,7 +51,7 @@ function Intro() {
                 <LinkedInIcon
                   className="icon"
                   color="primary"
-                  style={{ fontSize: "40px" }}
+                  style={{ fontSize: '40px' }}
                 />
               }
               LinkedIn
@@ -67,7 +60,7 @@ function Intro() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Intro;
+export default Intro

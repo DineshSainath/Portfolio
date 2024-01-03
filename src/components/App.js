@@ -1,10 +1,11 @@
-import "./styles.css";
-import Navbar from "./navbar";
-import Intro from "./Intro0";
-import Vertical from "./vertical";
-import Skills from "./Skills";
-import Work from "./Work";
-import Footer from "./Footer";
+import './styles.css'
+import React from 'react'
+import Navbar from './navbar'
+import Intro from './Intro0'
+import Vertical from './vertical'
+import Skills from './Skills'
+import Work from './Work'
+import Footer from './Footer'
 
 export default function App() {
   return (
@@ -16,8 +17,8 @@ export default function App() {
         <h3> P R O J E C T S </h3>
       </div>
       <Vertical />
-      <Work/>
-      <Footer/>
+      <Work />
+      <Footer />
     </div>
-  );
+  )
 }

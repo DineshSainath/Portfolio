@@ -1,10 +1,28 @@
-import React from "react";
-import "./styles.css";
+import React, { useState, useEffect } from 'react'
+import './styles.css'
+import './navbar.css'
 
 function Navbar() {
+  const [prevScrollPos, setPrevScrollPos] = useState(0)
+  const [isVisible, setIsVisible] = useState(true)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY
+      setIsVisible(currentScrollPos <= prevScrollPos || currentScrollPos === 0)
+      setPrevScrollPos(currentScrollPos)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [prevScrollPos])
+
   return (
-    <div className="container-fluid">
-      <nav className="navbar navbar-expand-lg navbar-dark ">
+    <div className={`container-fluid ${isVisible ? 'visible' : 'hidden'}`}>
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top slideIn">
         <a className="navbar-brand" href="#nav" id="nav">
           DS
         </a>
@@ -40,7 +58,7 @@ function Navbar() {
         </div>
       </nav>
     </div>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

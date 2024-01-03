@@ -1,3 +1,19 @@
+.v .proj {
+  text-align: right;
+  float: right;
+  overflow: auto;
+  text-decoration: none !important;
+  /* color:#0F636B; */
+  /* color: #2c397f; */
+  color: black;
+  padding-left: 20px;
+}
+
+.v .proj:hover {
+  /* color: #3f51b5; */
+  color: #8a8a88;
+}
+
 .vertical-timeline-element {
   position: relative;
   margin: 2em 0;
@@ -6,7 +22,7 @@
   min-height: 1px;
 }
 .vertical-timeline-element:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -155,7 +171,7 @@
   box-shadow: none;
 }
 .vertical-timeline-element-content:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -190,7 +206,7 @@
   opacity: 0.7;
 }
 .vertical-timeline-element-content-arrow {
-  content: "";
+  content: '';
   position: absolute;
   top: 16px;
   right: 100%;
@@ -201,7 +217,7 @@
 }
 
 .vertical-timeline--one-column-right .vertical-timeline-element-content-arrow {
-  content: "";
+  content: '';
   position: absolute;
   top: 16px;
   right: unset;
@@ -267,7 +283,9 @@
   }
 
   .vertical-timeline--two-columns
-    .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+    .vertical-timeline-element:nth-child(even):not(
+      .vertical-timeline-element--left
+    )
     .vertical-timeline-element-content,
   .vertical-timeline--two-columns
     .vertical-timeline-element.vertical-timeline-element--right
@@ -275,7 +293,9 @@
     float: right;
   }
   .vertical-timeline--two-columns
-    .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+    .vertical-timeline-element:nth-child(even):not(
+      .vertical-timeline-element--left
+    )
     .vertical-timeline-element-content-arrow,
   .vertical-timeline--two-columns
     .vertical-timeline-element.vertical-timeline-element--right
@@ -287,7 +307,9 @@
   }
 
   .vertical-timeline--one-column-right
-    .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+    .vertical-timeline-element:nth-child(even):not(
+      .vertical-timeline-element--left
+    )
     .vertical-timeline-element-content-arrow,
   .vertical-timeline--one-column-right
     .vertical-timeline-element.vertical-timeline-element--right
@@ -299,7 +321,9 @@
   }
 
   .vertical-timeline--two-columns
-    .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+    .vertical-timeline-element:nth-child(even):not(
+      .vertical-timeline-element--left
+    )
     .vertical-timeline-element-content
     .vertical-timeline-element-date,
   .vertical-timeline--two-columns
@@ -326,7 +350,9 @@
 @media only screen and (min-width: 1170px) {
   /* inverse bounce effect on even content blocks */
   .vertical-timeline--two-columns.vertical-timeline--animate
-    .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+    .vertical-timeline-element:nth-child(even):not(
+      .vertical-timeline-element--left
+    )
     .vertical-timeline-element-content.bounce-in,
   .vertical-timeline--two-columns.vertical-timeline--animate
     .vertical-timeline-element.vertical-timeline-element--right

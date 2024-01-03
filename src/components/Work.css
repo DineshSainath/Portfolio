@@ -1,0 +1,34 @@
+.work {
+  background-color: #fffffa;
+  /* margin: 0 auto; */
+}
+
+.work .card-deck {
+  padding-bottom: 5rem;
+  margin: 0 auto;
+}
+
+.work h3 {
+  padding-top: 70px;
+  padding-bottom: 80px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.work .card {
+  background-color: #f0e9e9;
+  margin: 0 auto;
+}
+
+.work .container-fluid .card-subtitle {
+  text-align: left;
+  float: left;
+  overflow: auto;
+}
+
+.work .card-deck .date {
+  text-align: right;
+  float: right;
+  overflow: auto;
+}

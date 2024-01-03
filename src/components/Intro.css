@@ -1,0 +1,98 @@
+.intro-content {
+  text-align: center;
+  position: relative;
+  /* white-space: normal; */
+  display: flex;
+  padding-block-end: 10em;
+  height: 97%;
+  width: 97%;
+  width: 100%;
+  margin-top: 10em;
+  /* max-width: 1900px; */
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: sub;
+  padding-top: 8%;
+}
+
+.intro .overlay-intro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.intro-title {
+  color: #fff;
+  font-weight: 200;
+  font-size: 6em;
+  width: 0 auto;
+  padding-top: 6%;
+  text-align: left;
+}
+
+.titleName {
+  font-weight: 600;
+}
+
+.container .center {
+  padding-top: 16%;
+}
+
+.intro-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+}
+
+.text-slider-items {
+  color: #fff;
+}
+
+.intro-single .breadcrumb {
+  background-color: transparent;
+  color: #0078ff;
+}
+
+.intro-single .breadcrumb .breadcrumb-item:before {
+  color: #cde1f8;
+}
+
+.intro-single .breadcrumb .breadcrumb-item.active {
+  color: #cde1f8;
+}
+
+.intro-single .breadcrumb a {
+  color: #fff;
+}
+
+.intro-content .icon:hover {
+  color: white;
+}
+
+.tb {
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  border-collapse: separate;
+  border-spacing: 5em 0;
+}
