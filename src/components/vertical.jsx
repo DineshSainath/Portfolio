@@ -18,12 +18,47 @@ import {
   DiReact,
   DiJavascript1,
   DiJava,
+  DiCodeBadge,
 } from 'react-icons/di'
 
 function Vertical() {
   return (
     <div className="v" position="absolute" white-space="normal" display="block">
       <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="July 2022"
+          contentStyle={{ background: 'rgb(43, 42, 42)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(84, 81, 81)' }}
+          dateClassName="vertical-date"
+          iconStyle={{ background: 'rgb(232, 227, 227)', color: 'black' }}
+          icon={<SchoolIcon />}
+        >
+          <a
+            className="proj"
+            href="https://github.com/DineshSainath/student-profile-2114"
+            target="_blank"
+          >
+            <SiGithub size={30} />
+          </a>
+          <a
+            className="proj"
+            href="https://coruscating-crostata-d691f8.netlify.app/"
+            target="_blank"
+          >
+            <DiCodeBadge size={30} />
+          </a>
+          <h3 className="vertical-timeline-element-title">Profile Deck</h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            React Application &ensp; <DiReact size={25} />{' '}
+            <DiNodejsSmall size={25} /> <DiHtml5 size={25} />{' '}
+            <DiCss3 size={25} />
+          </h5>
+          <p>
+            A user profile system that parses API to card components with
+            dynamic search and tag system
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(43, 42, 42)', color: '#fff' }}
@@ -153,28 +188,6 @@ function Vertical() {
             A Java based e-store application, integrated using Hashmaps, GUI and
             exception handling
           </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="June 2020"
-          contentStyle={{ background: 'rgb(43, 42, 42)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(84, 81, 81)' }}
-          dateClassName="vertical-date"
-          iconStyle={{ background: 'rgb(232, 227, 227)', color: 'black' }}
-          icon={<SchoolIcon />}
-        >
-          <a
-            className="proj"
-            href="https://github.com/DineshSainath/Adventure-game"
-            target="_blank"
-          >
-            <SiGithub size={30} />
-          </a>
-          <h3 className="vertical-timeline-element-title">Adventure Game</h3>
-          <h5 className="vertical-timeline-element-subtitle">
-            Java Application &ensp; <DiJava size={30} />
-          </h5>
-          <p>A text-based Java game that uses Object Oriented Approach</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

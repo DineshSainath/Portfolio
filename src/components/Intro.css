@@ -105,4 +105,5 @@
 .links {
   border-collapse: separate;
   border-spacing: 5em 0;
+  filter: grayscale(100);
 }

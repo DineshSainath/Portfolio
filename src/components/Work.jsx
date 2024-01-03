@@ -12,31 +12,35 @@ function Work() {
         <div className="card-deck">
           <div className="card col-md-5 shadow p-3 mb-5 bg-body rounded custom-col">
             {/* data-aos="fade-left" */}
-            <h2 className="card-title">Vankay Systems</h2>
+            <h2 className="card-title">Gravvity</h2>
             <div display="flex">
-              <h5 className="card-subtitle">Junior Web Developer</h5>
-              <h7 className="date">Jan - April 2020</h7>
+              <h5 className="card-subtitle">Software Developer</h5>
+              <h7 className="date">Apr '23 - Present</h7>
             </div>
             <p className="card-text">
               <li>Analyzed the business model & proposed the UI mockup</li>
-              <li>Developed the front-end website using HTML, CSS and JS</li>
-              <li>Integrated Wordpress to enable easy management</li>
+              <li>Developed the front-end interface using HTML, CSS and JS</li>
+              <li>
+                Produced visual elements and functionalities for ecommerce for
+                virtual reality systems
+              </li>
             </p>
           </div>
           <div className="card col-md-5 shadow p-3 mb-5 bg-body rounded">
-            <h2 className="card-title">iCommunity</h2>
+            <h2 className="card-title">Vankay System</h2>
             <div display="flex">
-              <h5 className="card-subtitle">IT Intern</h5>
-              <h7 className="date">July - Dec 2020</h7>
+              <h5 className="card-subtitle">Web Developer Intern</h5>
+              <h7 className="date">July '22 - Jan '23</h7>
             </div>
             <p className="card-text">
               <li>
-                {' '}
-                Developed the front-end platform for students to engage and
-                network within a community
+                Developed reusable components for the user interface using
+                React.js, Forms, and React Hooks.
               </li>
-              <li>Enhanced the performance using efficient algorithms</li>
-              <li>Maintain website content, posts and pages</li>
+              <li>
+                Enhanced the performance by using efficient es6 algorithms.{' '}
+              </li>
+              <li>Integrate RESTful API data into components and database</li>
             </p>
           </div>
         </div>

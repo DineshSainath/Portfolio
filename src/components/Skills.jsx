@@ -15,7 +15,7 @@ import { SiC, SiCplusplus } from 'react-icons/si'
 function Skills() {
   return (
     <section className="skills">
-      <h3>S K I L L S</h3>
+      <h3 className="title">S K I L L S</h3>
       <div className="container-fluid">
         <div className="row">
           <ul className="list-inline mx-auto justify-content-center">
