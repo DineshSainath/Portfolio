@@ -16,16 +16,21 @@ function Intro() {
     <div className="intro-content display-table">
       {/* <div className="table-cell"> */}
       <div className="container">
-        <h1 className="intro-title">
-          Hello, I'm <span className="titleName"> Dinesh Sainath </span>
-        </h1>
+        <p className="intro-title">
+          <p className="hello"> Hello, I'm </p>{' '}
+          <p className="titleName">Dinesh Sainath</p>
+        </p>
         <p className="intro-subtitle">
           <span className="text-slider-items"></span>
           <strong className="text-slider">
             <Typed
-              strings={['Front End Developer']}
-              typeSpeed={80}
-              backDelay={1100}
+              className="rolling-text"
+              strings={[
+                `I'm a Front End Developer.`,
+                `I build applications for the web.`,
+              ]}
+              typeSpeed={30}
+              backDelay={1500}
               backSpeed={30}
               loop
             />

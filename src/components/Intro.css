@@ -41,14 +41,24 @@
 .intro-title {
   color: #fff;
   font-weight: 200;
-  font-size: 6em;
+  font-size: 2em;
   width: 0 auto;
   padding-top: 6%;
   text-align: left;
 }
 
+.hello {
+  padding-left: 6px;
+}
+
 .titleName {
+  padding-top: 0;
   font-weight: 600;
+  font-size: 3em;
+}
+
+.rolling-text {
+  padding-left: 6px;
 }
 
 .container .center {
