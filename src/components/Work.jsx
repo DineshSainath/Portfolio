@@ -27,7 +27,7 @@ function Work() {
             </p>
           </div>
           <div className="card col-md-5 shadow p-3 mb-5 bg-body rounded">
-            <h2 className="card-title">Vankay System</h2>
+            <h2 className="card-title">Vankay Systems</h2>
             <div display="flex">
               <h5 className="card-subtitle">Web Developer Intern</h5>
               <h7 className="date">July '22 - Jan '23</h7>
